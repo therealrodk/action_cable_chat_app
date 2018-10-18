@@ -6,7 +6,7 @@ App.room = App.cable.subscriptions.create "RoomChannel",
     # Called when the subscription has been terminated by the server
 
   received: (data) ->
-    alert("You have a new mention") if data.mention
+    alert("You have a new mention from #{data.origin}") if data.mention
     # This still seems to work, IDK why.
     # unless data.message.blank?
     if (data.message && !data.message.blank?)
