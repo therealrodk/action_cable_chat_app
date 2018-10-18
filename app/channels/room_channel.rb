@@ -6,5 +6,6 @@ class RoomChannel < ApplicationCable::Channel
 
   def unsubscribed
     # Any cleanup needed when channel is unsubscribed
+    # REFACTOR Save transcript/log? Send email to user?
   end
 end

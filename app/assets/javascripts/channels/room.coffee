@@ -7,6 +7,8 @@ App.room = App.cable.subscriptions.create "RoomChannel",
 
   received: (data) ->
     alert("You have a new mention") if data.mention
+    # This still seems to work, IDK why.
+    # unless data.message.blank?
     if (data.message && !data.message.blank?)
       $('#messages-table').append data.message
       scroll_bottom()
