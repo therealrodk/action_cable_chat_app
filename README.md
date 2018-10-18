@@ -11,6 +11,14 @@ git checkout action-cable-reference
 When following the tutorial, you should be able to resolve any discrepancies by comparing with this reference app.
 
 
+## Heroku
+[https://secret-thicket-57137.herokuapp.com](https://secret-thicket-57137.herokuapp.com)
+
+### Redis To Go
+Created redistogo-cubed-56231 as REDISTOGO_URL
+Use `heroku addons:docs redistogo` to view documentation.
+
+
 ## Future Upgrades
 
 Messages
