@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'rails',                  '~> 5.2.1'
+gem 'rails', '~> 5.2.1', '>= 5.2.1.1'
 gem 'bcrypt',                 '~> 3.1', '>= 3.1.12'
 gem 'faker',                  '~> 1.9', '>= 1.9.1'
 gem 'puma',                   '~> 3.12'
-gem 'sass-rails',             '~> 5.0', '>= 5.0.7'
+gem 'sass-rails', '~> 5.0', '>= 5.0.7'
 gem 'uglifier',               '~> 4.1', '>= 4.1.19'
-gem 'coffee-rails',           '~> 4.2', '>= 4.2.2'
-gem 'jquery-rails',           '~> 4.3', '>= 4.3.3'
+gem 'coffee-rails', '~> 4.2', '>= 4.2.2'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'turbolinks',             '~> 5.2'
 gem 'jbuilder',               '~> 2.7'
 gem 'pg',                     '~> 1.1', '>= 1.1.3'
@@ -20,7 +20,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'web-console',            '~> 3.7'
+  gem 'web-console', '~> 3.7', '>= 3.7.0'
   gem 'listen',                 '~> 3.1', '>= 3.1.5'
   gem 'spring',                 '~> 2.0', '>= 2.0.2'
   gem 'spring-watcher-listen',  '~> 2.0', '>= 2.0.1'
