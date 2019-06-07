@@ -16,7 +16,7 @@ gem 'kramdown',               '~> 1.17'
 gem 'redis',                  '~> 4.0', '>= 4.0.2'
 
 group :development, :test do
-  gem 'byebug',               '~> 10.0', '>= 10.0.2'
+  gem 'byebug',               '~> 11.0'
 end
 
 group :development do
