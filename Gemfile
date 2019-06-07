@@ -10,7 +10,7 @@ gem 'coffee-rails', '~> 4.2', '>= 4.2.2'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'turbolinks',             '~> 5.2'
 gem 'jbuilder',               '~> 2.7'
-gem 'pg',                     '~> 1.1', '>= 1.1.3'
+gem 'pg',                     '~> 1.1'
 
 gem 'kramdown',               '~> 1.17'
 gem 'redis',                  '~> 4.0', '>= 4.0.2'
