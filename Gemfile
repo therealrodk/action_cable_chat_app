@@ -28,7 +28,7 @@ end
 
 group :test do
   gem 'rails-controller-testing', '~> 1.0', '>= 1.0.2'
-  gem 'minitest-reporters',       '~> 1.3', '>= 1.3.5'
+  gem 'minitest-reporters',       '~> 1.4'
   gem 'guard',                    '~> 2.14', '>= 2.14.2'
   gem 'guard-minitest',           '~> 2.4', '>= 2.4.6'
 end
