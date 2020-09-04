@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '~> 5.2.1', '>= 5.2.1.1'
-gem 'bcrypt',                 '~> 3.1', '>= 3.1.12'
+gem 'bcrypt',                 '~> 3.1'
 gem 'faker',                  '~> 1.9', '>= 1.9.1'
 gem 'puma',                   '~> 3.12'
 gem 'sass-rails', '~> 5.0', '>= 5.0.7'
