@@ -13,7 +13,7 @@ gem 'jbuilder',               '~> 2.7'
 gem 'pg',                     '~> 1.1', '>= 1.1.3'
 
 gem 'kramdown',               '~> 1.17'
-gem 'redis',                  '~> 4.0', '>= 4.0.2'
+gem 'redis',                  '~> 4.2'
 
 group :development, :test do
   gem 'byebug',               '~> 10.0', '>= 10.0.2'
